@@ -2,7 +2,8 @@
   "name": "iac",
   "version": "1.0.0",
   "main": "main.js",
-  "types": "main.ts",
+  "type": "module",
+  "types": "main.js",
   "license": "MPL-2.0",
   "private": true,
   "scripts": {
@@ -20,7 +21,7 @@
     "node": ">=14.0"
   },
   "dependencies": {
-    "cdktf": "^0.15.5",
+    "cdktf": "^0.20.4",
     "constructs": "^10.1.265"
   },
   "devDependencies": {
