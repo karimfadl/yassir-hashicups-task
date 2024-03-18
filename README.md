@@ -1,6 +1,6 @@
 # Yassir Platform Engineering Take Home Challenge
 
-1. Prerequisite.
+## 1. Prerequisite.
 
 Install The latest version of the following:
 - Docker and Docker-Compose : https://docs.docker.com/engine/install/ 
@@ -13,7 +13,7 @@ Install The latest version of the following:
 - CDKTF : https://developer.hashicorp.com/terraform/tutorials/cdktf/cdktf-install
 - TSX : npm i -g tsx
 
-2. Deploy Hashicorp/hashicups.
+## 2. Deploy Hashicorp/hashicups.
 
 There are 2 Ways to Install Hashicups Provider.
 - Install Hashicups as Local Provider : https://developer.hashicorp.com/terraform/plugin/sdkv2#install-hashicups-provider
@@ -21,15 +21,15 @@ There are 2 Ways to Install Hashicups Provider.
 `Note : The offical Hashicups provider Deprecated.`
 Check the following Path : packages/iac/cdktf.json
 
-3. Installation Steps:
+## 3. Installation Steps:
 - Install Dependencies : pnpm install
 - Run Hashicups (Containers) : cd packages/iac/hashicups-provider && docker-compose up -d
 
-4. Create Dummy Orders/Items.
+## 4. Create Dummy Orders/Items.
 * order specific folder under `~/cdk_hashicups/packages/iac/resources/` and 
 * items for each order(s) as JSON file under order specific folder(s). 
 
-5. Deploy the Stack.
+## 5. Deploy the Stack.
 ```
 cd cdk_hashicups/packages/iac
 cdktf get
