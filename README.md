@@ -24,6 +24,7 @@ Check the following Path : packages/iac/cdktf.json
 ## 3. Installation Steps:
 - Install Dependencies : `pnpm install`
 - Run Hashicups (Containers) : `cd packages/iac/hashicups-provider && docker-compose up -d`
+- Create a Hashicups User : `curl -X POST localhost:19090/signup -d '{"username":"education", "password":"test123"}'`
 
 ## 4. Create Dummy Orders/Items.
 * order specific folder under `~/cdk_hashicups/packages/iac/resources/`
